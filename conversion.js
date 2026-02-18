@@ -4,8 +4,8 @@ let score = 0
 //console.log(typeof (score));
 
 let valueInNumber = Number(score) 
-console.log(typeof valueInNumber);
-console.log(valueInNumber);
+// console.log(typeof valueInNumber);
+// console.log(valueInNumber);
 
 //"33" => 33
 // "" => NaN
@@ -50,3 +50,16 @@ let str3 = str1 + str2
 // console.log("1" + 2 + 2);
 // console.log(1 + 2 + "2");
 
+// console.log(2 > 0);
+// console.log(2 < 0);
+// console.log(2 == 0);
+// console.log(2 >= 0);
+// console.log(2 <= 0);
+
+// console.log(null > 0);
+// console.log(null == 0);
+// console.log(null >= 0);
+
+console.log(undefined === 0);
+console.log(undefined <= 0);
+console.log(undefined > 0);
