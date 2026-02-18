@@ -35,4 +35,25 @@ const MyFunction = function(){
     console.log("Hello World");
     
 }
-console.log(typeof Heros, myObj, MyFunction);
+// console.log(typeof Heros, myObj, MyFunction);
+
+// Stack(Primitive) , Heap(NoN-Primitive)
+
+let myyoutubename = "bamanmarara"
+ let anothername = myyoutubename
+
+ anothername = "sharmamarara"
+
+ console.log(myyoutubename);
+ console.log(anothername);
+
+ let userone = {
+    email: "user@google.com",
+    upi: "user@ybl",
+ }
+ let usertwo = userone
+ usertwo.email = "baman@google.com"
+
+ console.log(userone);
+ console.log(usertwo);
+ 
