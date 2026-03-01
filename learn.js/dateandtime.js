@@ -30,10 +30,14 @@ let mydate = new Date()
 // console.log(mycreateddate.getTime());
 // console.log(Math.floor(Date.now()/1000));
 
-let newdate = new Date()
-console.log(newdate);
-console.log(newdate.getMonth() + 1);
-console.log(newdate.getDay() + 1);
-console.log(newdate.getFullYear());
+// let newdate = new Date()
+// console.log(newdate);
+// console.log(newdate.getMonth() + 1);
+// console.log(newdate.getDay() + 1);
+// console.log(newdate.getFullYear());
 
-
+// newdate.toLocaleString('default', {
+//     weekday: "long",
+//     timeStyle: "medium",   
+// })
+// console.log(newdate);
