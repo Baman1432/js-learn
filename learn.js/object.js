@@ -47,9 +47,9 @@ const users = [
 ]
 // console.log(users[1].id)
 // console.log(tinderuser);
-console.log(Object.keys(tinderuser));
-console.log(Object.values(tinderuser));
-console.log(Object.entries(tinderuser));
+// console.log(Object.keys(tinderuser));
+// console.log(Object.values(tinderuser));
+// console.log(Object.entries(tinderuser));
 
 
 // console.log(tinderuser.hasOwnProperty(`isloggedin`));
@@ -90,3 +90,32 @@ console.log(Object.entries(tinderuser));
 // }
 // // console.log(Jsuser.greetingTwo());
 
+
+//destructuring exerecise 
+const obj = {
+    delta: 'Delta',
+    age: 25,
+    desigination: "SDE",
+    cars: ["Baleno","Swift", "Lord Alto" ],  
+}
+const {cars, desigination} = obj;
+const lordAlto = cars[2]
+console.log(lordAlto);
+
+// console.log(obj.desigination);
+// obj.desigination = "tester"
+// console.log(obj.desigination);
+
+// exerecise 2
+
+// const newObj = {
+//     delta: obj.delta,
+//     age: obj.age,
+//     desigination: "Tester",
+//     cars: obj.cars
+// }
+// const newObj2 ={
+//     ...obj,
+//     desigination: "Tester"
+// }
+// console.log('newObj', newObj2);
