@@ -1,12 +1,11 @@
 //  constructor make singleton
 // Object.create
 
-// const tinderuser = new Object()
-const tinderuser = {}
+const tinderuser = new Object();
 
-tinderuser.id = "123abc",
-tinderuser.name = "rammy"
-tinderuser.isloggedin = false,
+tinderuser.id = "123abc";
+tinderuser.name = "rammy";
+tinderuser.isloggedin = false;
 
 // console.log(tinderuser);
 
@@ -18,8 +17,44 @@ const regularuser = {
             lastname: "Marara",
         }
     }
-}
-console.log(regularuser.fullname.userfullname.firstname);
+};
+
+// console.log(regularuser.fullname.userfullname.firstname);
+
+const obj1 = {1: "a", 2: "b"}
+const obj2 = {3: "c", 4: "d"}
+const obj4 = {5: "e", 6: "f"}
+
+// const obj3 = {obj1, obj2}
+// const obj3 = Object.assign({}, obj1, obj2, obj4)
+
+const obj3 = {...obj1, ...obj2, ...obj4}
+// console.log(obj3);
+
+const users = [
+    {
+        id: "1",
+        emial: "b1@gamil.com",
+    },
+    {
+        id: "2",
+        emial: "b2@gamil.com",
+    },
+    {
+        id: "3",
+        emial: "b3@gamil.com",
+    }
+]
+// console.log(users[1].id)
+// console.log(tinderuser);
+console.log(Object.keys(tinderuser));
+console.log(Object.values(tinderuser));
+console.log(Object.entries(tinderuser));
+
+
+// console.log(tinderuser.hasOwnProperty(`isloggedin`));
+
+
 
 // literals makes multiple object 
 
@@ -40,18 +75,18 @@ console.log(regularuser.fullname.userfullname.firstname);
 // console.log(Jsuser["full name"]);
 // console.log(Jsuser[mysym]);
 
-Jsuser.email = "baman@chatgpt.com"
+// Jsuser.email = "baman@chatgpt.com"
 // Object.freeze(Jsuser)
-Jsuser.email = "baman@microsoft.com"
+// Jsuser.email = "baman@microsoft.com"
 // console.log(Jsuser);
 
-Jsuser.greeting = function(){
-    console.log("hello Js user");
-}
-// console.log(Jsuser.greeting());
+// Jsuser.greeting = function(){
+//     console.log("hello Js user");
+// }
+// // console.log(Jsuser.greeting());
 
-Jsuser.greetingTwo = function(){
-    console.log(`hello Js user, ${this.name}`);
-}
-// console.log(Jsuser.greetingTwo());
+// Jsuser.greetingTwo = function(){
+//     console.log(`hello Js user, ${this.name}`);
+// }
+// // console.log(Jsuser.greetingTwo());
 
