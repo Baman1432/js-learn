@@ -81,22 +81,27 @@
 
 // write a method which take paramater  of obj and key of obj and return the value;
 
-function getValueByKey(obj, key){
- return obj[key];
-}
-const user = {
-    username: "Baman",
-    age: 25,
-}
-console.log(getValueByKey(user, "username"));
-
-// function getValue(obj, key) {
-//   return obj[key];
+// function getValueByKey(obj, key){
+//  return obj[key];
 // }
-// const user = { 
-//     name: "Rahul", 
-//     age: 25 
-// };
+// const user = {
+//     username: "Baman",
+//     age: 25,
+// }
+// console.log(getValueByKey(user, "username"));
 
-// console.log(getValue(user, "name")); 
-// console.log(getValue(user, "age")); 
+
+
+// write a method then pass a obj where you have to override object value overriden value pass from the parameter
+
+// function getOverrideObj(obj, key, value){
+//     obj[key] = value;
+//     return obj;
+// }
+// const overrideobj = {
+//        username: "Baman",
+//        age: 25,
+//        branch: "CS"
+// }
+// const result = getOverrideObj(overrideobj, "username", "Rimanshu")
+// console.log(result);

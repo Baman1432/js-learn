@@ -92,13 +92,13 @@ const users = [
 
 
 //destructuring exerecise 
-const obj = {
+const overrideobj = {
     delta: 'Delta',
     age: 25,
     desigination: "SDE",
     cars: ["Baleno","Swift", "Lord Alto" ],  
 }
-const {cars, desigination} = obj;
+const {cars, desigination} = overrideobj;
 const lordAlto = cars[2]
 console.log(lordAlto);
 
