@@ -69,8 +69,114 @@ while (arr <  myArray1.length) {
 
 let score = 1
 do {
-    console.log(`score is ${score}`);
+    // console.log(`score is ${score}`);
     score++
 
 } while (score <= 10);
 
+// for of loop
+
+["", "", ""]
+[{}, {}, {}]
+
+
+const arr1 = [1, 2, 3, 4, 5]
+
+for (const num of  arr1) {
+    // console.log(num);
+    
+}
+
+const greetings = "Hello World!"
+for (const greet of greetings) {
+    // console.log(`each char is ${greet}`);
+     
+}
+
+//  Maps
+
+// const map = new Map()
+// map.set(`IN`, "India")
+// map.set(`usa`, "united states of america")
+// map.set(`FR`, "France")
+// console.log(map);
+// for (const [key, value] of map) {
+    // console.log(key, `:-`, value);
+    
+// }
+
+// const myObject = {
+//     Game1: 'nfs',
+//     Game2: 'spiderman'
+// }
+// for (const [key, value] of myObject) {
+//     console.log(key, `:-`, value);
+    
+// }
+
+// const myObject = {
+//     js: "javascript",
+//     cpp: "c++",
+//     Rb: "Ruby",
+//     Swift: "swift by apple"
+// }
+// for (const key in myObject) {
+//     // console.log(myObject[key]);
+//     console.log(`${key} shortcut for ${myObject[key]}`);
+    
+    
+// }
+
+const programming = ["js", "ruby", "java", "cpp"]
+
+for (const key in programming) {
+//    console.log(programming[key]);
+   
+}
+
+// const map = new Map()
+// map.set(`IN`, "India")
+// map.set(`usa`, "united states of america")
+// map.set(`FR`, "France")
+
+// for (const key in map) {
+//    console.log(key);
+   
+// }
+
+// for each loop
+
+const coding =  ["js", "ruby", "java", "cpp"]
+
+// coding.forEach( (item) => {
+//     console.log(item);
+    
+// } )
+
+// coding.forEach( (item, index, arr) => {
+//     console.log(item, index, arr);
+    
+// } )
+
+const mycodding = [
+    {
+    languagename: "javascript",
+    languagefile: "js",
+    },
+    {
+    languagename: "java",
+    languagefile: "java"
+    },
+    {
+    languagename: "python",
+    languagefile: "Py",
+    }
+]
+mycodding.forEach( (item) => {
+    // console.log(item.languagefile);
+    // console.log(item.languagename);
+    console.log(item);
+    
+    
+}
+)
